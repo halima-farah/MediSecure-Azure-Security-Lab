@@ -20,3 +20,16 @@ Verification of Success
 Validation: Verified the encryption status in the Azure Portal as SSE with CMK.
 
 Evidence: Documented the successful update via Azure Resource Health and Notification logs.
+### **Visual Evidence**
+
+#### **1. Disk Encryption Set Infrastructure**
+The "bridge" created to link the Key Vault and the VM.
+![Disk Encryption Set](./image_b80386.png)
+
+#### **2. Successful Deployment**
+The Azure notification confirming the disk update was successful.
+![Success Notification](./image_b71f42.png)
+
+#### **3. Final Verification (SSE with CMK)**
+Confirmed: The OS disk is now secured with Customer-Managed Keys.
+![Final Status](./image_b71ea8.png)
