@@ -23,13 +23,13 @@ Evidence: Documented the successful update via Azure Resource Health and Notific
 ### **Visual Evidence**
 
 #### **1. Disk Encryption Set Infrastructure**
-The "bridge" created to link the Key Vault and the VM.
-![Disk Encryption Set](./image_b80386.png)
+The "bridge" created to link the Azure Key Vault and the VM.
+![Disk Encryption Set](./Disk_Encryption_Set.png)
 
-#### **2. Successful Deployment**
-The Azure notification confirming the disk update was successful.
-![Success Notification](./image_b71f42.png)
+#### **2. Successful Deployment Confirmation**
+Azure notification confirming the OS disk encryption update was successful.
+![Success Notification](./Success_Notification.png)
 
 #### **3. Final Verification (SSE with CMK)**
-Confirmed: The OS disk is now secured with Customer-Managed Keys.
-![Final Status](./image_b71ea8.png)
+Confirmed: The OS disk status is now "Server-Side Encryption with Customer-Managed Key."
+![Final Status](./Disk_Encryption_Success.png)
